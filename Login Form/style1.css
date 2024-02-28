@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background: linear-gradient(90deg, rgb(226, 159, 15) 0%, rgb(190, 78, 194) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 ); 
+    
+   /* background: -webkit-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#145277", endColorstr="#83D0CB", GradientType=1 );*/
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login{
+    height: 25rem;
+    width: 18rem;
+    background-color: #ffffff;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0.2rem 0 0 rgba(0, 0, 0, 0.5);
+}
+#login-user{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: system-ui;
+}
+ .user,.pass{
+    height: 3rem;
+    width: 20rem;
+    line-height: 3rem;
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1vmin;
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.2rem 0 0 rgba(0, 0, 0, 0.5);
+
+
+}
+/*
+.user{
+    margin-top: 2rem;
+}
+
+#u,#p{
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1vmin;
+    border: none;
+    background-color: #f8f9fa;
+    box-shadow: 0 0.2rem 0 0 rgba(0, 0, 0, 0.5);
+
+} */
+#U,#P{
+    margin-left: 2px;
+    background-color:#f8f9fa;
+    height: 2rem;
+    border: none;
+}
+#u,#p{
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.forgot{
+    text-align: right;
+    font-size: 1rem;
+    margin-right: 3rem;
+    font-weight: 200;
+}
+.logo{
+
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    border-radius: 10rem;
+    width: 10%;
+    margin-top: 1rem;
+}
+#sign{
+    font-size: 0.90rem;
+    font-weight: 100;
+}
+#Sign{
+    font-size: 0.90rem;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+.sign{
+    font-size: 1rem;
+    margin-top: 7px;
+    text-align: center;
+}
+.logo img:hover{
+    cursor: pointer;
+    transform: scale(1.50);
+    transition: transform 0.1s ease;
+}
+button{
+    margin-top: 2rem;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 10rem;
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem; 
+}
+.btn :hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(80, 66, 71) 0%, hsla(197, 100%, 64%, 1) 100%);
+    /* background: linear-gradient(90deg, hsla(61, 91%, 54%, 1) 0%, hsla(95, 98%, 41%, 1) 100%); */
+}
+#heading{
+    line-height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 2rem;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
